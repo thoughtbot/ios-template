@@ -1,4 +1,4 @@
-# PROJECT_NAME #
+# KICKOFF_PROJECT_NAME #
 
 ## Setup ##
 

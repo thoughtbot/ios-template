@@ -37,8 +37,8 @@ shift $((OPTIND - 1))
 mkdir -p "${test_reports_dir}"
 
 env NSUnbufferedIO=YES xcrun xcodebuild \
-  -project PROJECT_NAME.xcodeproj \
-  -scheme PROJECT_NAME \
+  -project KICKOFF_PROJECT_NAME.xcodeproj \
+  -scheme KICKOFF_PROJECT_NAME \
   -destination 'platform=iOS Simulator,name=iPhone 6s' \
   "${build_actions[@]}" \
   | xcpretty "${xcpretty_options[@]}"

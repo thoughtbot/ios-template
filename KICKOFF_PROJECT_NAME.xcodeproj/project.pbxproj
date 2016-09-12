@@ -26,7 +26,7 @@
 			containerPortal = 4635508D2889DFB7629C4DE1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 36D3216B8195DA436095B6F8;
-			remoteInfo = PROJECT_NAME;
+			remoteInfo = KICKOFF_PROJECT_NAME;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -46,7 +46,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0C259E3EB30CB74DE6FDE79F /* PROJECT_NAME.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PROJECT_NAME.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C259E3EB30CB74DE6FDE79F /* KICKOFF_PROJECT_NAME.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KICKOFF_PROJECT_NAME.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C46190FA71984CC3B64E7B4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4CB5CCE6074C154EE276C700 /* Main.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		728E193911D9B3956F2730E0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -139,7 +139,7 @@
 		5C82B2FB1DCDF5A60B5DD955 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0C259E3EB30CB74DE6FDE79F /* PROJECT_NAME.app */,
+				0C259E3EB30CB74DE6FDE79F /* KICKOFF_PROJECT_NAME.app */,
 				CBCE1D85EA9B3F07566B6E71 /* Tests.xctest */,
 			);
 			name = Products;
@@ -243,9 +243,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		36D3216B8195DA436095B6F8 /* PROJECT_NAME */ = {
+		36D3216B8195DA436095B6F8 /* KICKOFF_PROJECT_NAME */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 75DAABC207F528B4099AD994 /* Build configuration list for PBXNativeTarget "PROJECT_NAME" */;
+			buildConfigurationList = 75DAABC207F528B4099AD994 /* Build configuration list for PBXNativeTarget "KICKOFF_PROJECT_NAME" */;
 			buildPhases = (
 				1B483C17C2BA54C9F427A8AD /* Sources */,
 				73779B6D7D908FA144CBA9A4 /* Frameworks */,
@@ -256,9 +256,9 @@
 			);
 			dependencies = (
 			);
-			name = PROJECT_NAME;
-			productName = PROJECT_NAME;
-			productReference = 0C259E3EB30CB74DE6FDE79F /* PROJECT_NAME.app */;
+			name = KICKOFF_PROJECT_NAME;
+			productName = KICKOFF_PROJECT_NAME;
+			productReference = 0C259E3EB30CB74DE6FDE79F /* KICKOFF_PROJECT_NAME.app */;
 			productType = "com.apple.product-type.application";
 		};
 		A65658C6810AD636100364D3 /* Tests */ = {
@@ -289,7 +289,7 @@
 				CLASSPREFIX = "";
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0800;
-				ORGANIZATIONNAME = COMPANY_NAME;
+				ORGANIZATIONNAME = KICKOFF_COMPANY_NAME;
 				TargetAttributes = {
 					36D3216B8195DA436095B6F8 = {
 						LastSwiftMigration = 0800;
@@ -299,7 +299,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C22BE00A7892AD501F42BA6B /* Build configuration list for PBXProject "PROJECT_NAME" */;
+			buildConfigurationList = C22BE00A7892AD501F42BA6B /* Build configuration list for PBXProject "KICKOFF_PROJECT_NAME" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -311,7 +311,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				36D3216B8195DA436095B6F8 /* PROJECT_NAME */,
+				36D3216B8195DA436095B6F8 /* KICKOFF_PROJECT_NAME */,
 				A65658C6810AD636100364D3 /* Tests */,
 			);
 		};
@@ -378,8 +378,8 @@
 /* Begin PBXTargetDependency section */
 		7CC95CA2766A0389480CFC8A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = PROJECT_NAME;
-			target = 36D3216B8195DA436095B6F8 /* PROJECT_NAME */;
+			name = KICKOFF_PROJECT_NAME;
+			target = 36D3216B8195DA436095B6F8 /* KICKOFF_PROJECT_NAME */;
 			targetProxy = 39F2D298135A5F41B2404D9E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -440,7 +440,7 @@
 				INFOPLIST_FILE = "Sources/Resources/Other-Sources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "BUNDLE_IDENTIFIER.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = "KICKOFF_BUNDLE_IDENTIFIER.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 3.0;
@@ -451,7 +451,7 @@
 		5057ED1C4DBE850BE944EA44 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PROJECT_NAME.app/PROJECT_NAME";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KICKOFF_PROJECT_NAME.app/KICKOFF_PROJECT_NAME";
 				CLANG_ENABLE_MODULES = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -461,7 +461,7 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = Tests/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "BUNDLE_IDENTIFIER.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = "KICKOFF_BUNDLE_IDENTIFIER.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -521,7 +521,7 @@
 		B34AB26AD4A42634AECBADE3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PROJECT_NAME.app/PROJECT_NAME";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KICKOFF_PROJECT_NAME.app/KICKOFF_PROJECT_NAME";
 				CLANG_ENABLE_MODULES = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -531,7 +531,7 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = Tests/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "BUNDLE_IDENTIFIER.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = "KICKOFF_BUNDLE_IDENTIFIER.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -556,7 +556,7 @@
 				INFOPLIST_FILE = "Sources/Resources/Other-Sources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "BUNDLE_IDENTIFIER.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = "KICKOFF_BUNDLE_IDENTIFIER.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 3.0;
@@ -567,7 +567,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		75DAABC207F528B4099AD994 /* Build configuration list for PBXNativeTarget "PROJECT_NAME" */ = {
+		75DAABC207F528B4099AD994 /* Build configuration list for PBXNativeTarget "KICKOFF_PROJECT_NAME" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1D1E7CFC379CA919D4F47338 /* Release */,
@@ -585,7 +585,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C22BE00A7892AD501F42BA6B /* Build configuration list for PBXProject "PROJECT_NAME" */ = {
+		C22BE00A7892AD501F42BA6B /* Build configuration list for PBXProject "KICKOFF_PROJECT_NAME" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				769A40C194F663DA943B3623 /* Debug */,

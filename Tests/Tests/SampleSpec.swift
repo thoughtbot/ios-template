@@ -1,4 +1,4 @@
-@testable import PROJECT_NAME
+@testable import KICKOFF_PROJECT_NAME
 import Quick
 import Nimble
 

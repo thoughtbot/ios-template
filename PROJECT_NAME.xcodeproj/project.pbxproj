@@ -12,6 +12,7 @@
 		9495297B22BFA74C15A528C9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7FF830DA698871C1495778E /* Images.xcassets */; };
 		E240F77D45ED5ACE1B723036 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AF5450F820AF3F3A02545D /* AppDelegate.swift */; };
 		F83205331D83694700047B79 /* Argo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F83205321D83694700047B79 /* Argo.framework */; };
+		F87108231D8706D60003294E /* Runes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F87108221D8706D60003294E /* Runes.framework */; };
 		F8C3823D1D832B7B00FF4F67 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8C3823B1D832B7B00FF4F67 /* Nimble.framework */; };
 		F8C3823E1D832B7B00FF4F67 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8C3823C1D832B7B00FF4F67 /* Quick.framework */; };
 		F8C382401D832BED00FF4F67 /* SampleSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C3823F1D832BED00FF4F67 /* SampleSpec.swift */; };
@@ -54,6 +55,7 @@
 		C7FF830DA698871C1495778E /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CBCE1D85EA9B3F07566B6E71 /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F83205321D83694700047B79 /* Argo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Argo.framework; path = Carthage/Build/iOS/Argo.framework; sourceTree = "<group>"; };
+		F87108221D8706D60003294E /* Runes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Runes.framework; path = Carthage/Build/iOS/Runes.framework; sourceTree = "<group>"; };
 		F8C3823B1D832B7B00FF4F67 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
 		F8C3823C1D832B7B00FF4F67 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
 		F8C3823F1D832BED00FF4F67 /* SampleSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleSpec.swift; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F87108231D8706D60003294E /* Runes.framework in Frameworks */,
 				F83205331D83694700047B79 /* Argo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -200,6 +203,7 @@
 		A2CC701156D159F0014BB14C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F87108221D8706D60003294E /* Runes.framework */,
 				F83205321D83694700047B79 /* Argo.framework */,
 				F8C3823B1D832B7B00FF4F67 /* Nimble.framework */,
 				F8C3823C1D832B7B00FF4F67 /* Quick.framework */,
@@ -341,6 +345,7 @@
 			);
 			inputPaths = (
 				"$(SRCROOT)/Carthage/Build/iOS/Argo.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Runes.framework",
 			);
 			name = "Embed Carthage Dependencies";
 			outputPaths = (

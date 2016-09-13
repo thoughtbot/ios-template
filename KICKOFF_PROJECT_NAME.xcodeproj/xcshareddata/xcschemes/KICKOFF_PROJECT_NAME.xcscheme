@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "36D3216B8195DA436095B6F8"
-               BuildableName = "KICKOFF_PROJECT_NAME.app"
-               BlueprintName = "KICKOFF_PROJECT_NAME"
-               ReferencedContainer = "container:KICKOFF_PROJECT_NAME.xcodeproj">
+               BuildableName = "{{ cookiecutter.project_name }}.app"
+               BlueprintName = "{{ cookiecutter.project_name }}"
+               ReferencedContainer = "container:{{ cookiecutter.project_name }}.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,7 +35,7 @@
                BlueprintIdentifier = "A65658C6810AD636100364D3"
                BuildableName = "Tests.xctest"
                BlueprintName = "Tests"
-               ReferencedContainer = "container:KICKOFF_PROJECT_NAME.xcodeproj">
+               ReferencedContainer = "container:{{ cookiecutter.project_name }}.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "36D3216B8195DA436095B6F8"
-            BuildableName = "KICKOFF_PROJECT_NAME.app"
-            BlueprintName = "KICKOFF_PROJECT_NAME"
-            ReferencedContainer = "container:KICKOFF_PROJECT_NAME.xcodeproj">
+            BuildableName = "{{ cookiecutter.project_name }}.app"
+            BlueprintName = "{{ cookiecutter.project_name }}"
+            ReferencedContainer = "container:{{ cookiecutter.project_name }}.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -66,9 +66,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "36D3216B8195DA436095B6F8"
-            BuildableName = "KICKOFF_PROJECT_NAME.app"
-            BlueprintName = "KICKOFF_PROJECT_NAME"
-            ReferencedContainer = "container:KICKOFF_PROJECT_NAME.xcodeproj">
+            BuildableName = "{{ cookiecutter.project_name }}.app"
+            BlueprintName = "{{ cookiecutter.project_name }}"
+            ReferencedContainer = "container:{{ cookiecutter.project_name }}.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -85,9 +85,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "36D3216B8195DA436095B6F8"
-            BuildableName = "KICKOFF_PROJECT_NAME.app"
-            BlueprintName = "KICKOFF_PROJECT_NAME"
-            ReferencedContainer = "container:KICKOFF_PROJECT_NAME.xcodeproj">
+            BuildableName = "{{ cookiecutter.project_name }}.app"
+            BlueprintName = "{{ cookiecutter.project_name }}"
+            ReferencedContainer = "container:{{ cookiecutter.project_name }}.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

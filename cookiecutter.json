@@ -1,0 +1,5 @@
+{
+  "project_name": "Project Name",
+  "company_name": "thoughtbot",
+  "bundle_identifier": "com.{{ cookiecutter.company_name | replace(' ', '-') | lower }}"
+}

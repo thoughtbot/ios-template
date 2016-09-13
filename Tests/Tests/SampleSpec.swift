@@ -1,4 +1,4 @@
-@testable import KICKOFF_PROJECT_NAME
+@testable import {{ cookiecutter.project_name }}
 import Quick
 import Nimble
 

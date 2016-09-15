@@ -1,1 +1,2 @@
 {{ cookiecutter.project_name }}/Cartfile.resolved
+TestProject/

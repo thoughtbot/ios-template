@@ -1,0 +1,12 @@
+machine:
+  xcode:
+    version: "8.0"
+
+dependencies:
+  pre:
+    - brew update
+    - brew install cookiecutter
+
+test:
+  override:
+    - bin/test

@@ -7,6 +7,5 @@ cookiecutter \
   --config-file bin/test-config.yml \
   .
 
-cd ./TestProject
-
-bin/test
+cd ./TestProject && bin/test
+cd .. && rm -r ./TestProject

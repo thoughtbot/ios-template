@@ -5,6 +5,7 @@ machine:
 dependencies:
   pre:
     - brew update
+    - brew upgrade carthage
     - brew install cookiecutter
 
 test:

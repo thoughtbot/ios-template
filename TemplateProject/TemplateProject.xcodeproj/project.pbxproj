@@ -26,7 +26,7 @@
 			containerPortal = 4635508D2889DFB7629C4DE1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 36D3216B8195DA436095B6F8;
-			remoteInfo = {{ cookiecutter.project_name }};
+			remoteInfo = TemplateProject;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -46,7 +46,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0C259E3EB30CB74DE6FDE79F /* {{ cookiecutter.project_name }}.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = {{ cookiecutter.project_name }}.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C259E3EB30CB74DE6FDE79F /* TemplateProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TemplateProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C46190FA71984CC3B64E7B4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4CB5CCE6074C154EE276C700 /* Main.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		728E193911D9B3956F2730E0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -139,7 +139,7 @@
 		5C82B2FB1DCDF5A60B5DD955 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0C259E3EB30CB74DE6FDE79F /* {{ cookiecutter.project_name }}.app */,
+				0C259E3EB30CB74DE6FDE79F /* TemplateProject.app */,
 				CBCE1D85EA9B3F07566B6E71 /* Tests.xctest */,
 			);
 			name = Products;
@@ -243,9 +243,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		36D3216B8195DA436095B6F8 /* {{ cookiecutter.project_name }} */ = {
+		36D3216B8195DA436095B6F8 /* TemplateProject */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 75DAABC207F528B4099AD994 /* Build configuration list for PBXNativeTarget "{{ cookiecutter.project_name }}" */;
+			buildConfigurationList = 75DAABC207F528B4099AD994 /* Build configuration list for PBXNativeTarget "TemplateProject" */;
 			buildPhases = (
 				F89879131D87375F008BF296 /* Validate Carthage dependencies */,
 				1B483C17C2BA54C9F427A8AD /* Sources */,
@@ -259,9 +259,9 @@
 			);
 			dependencies = (
 			);
-			name = {{ cookiecutter.project_name }};
-			productName = {{ cookiecutter.project_name }};
-			productReference = 0C259E3EB30CB74DE6FDE79F /* {{ cookiecutter.project_name }}.app */;
+			name = TemplateProject;
+			productName = TemplateProject;
+			productReference = 0C259E3EB30CB74DE6FDE79F /* TemplateProject.app */;
 			productType = "com.apple.product-type.application";
 		};
 		A65658C6810AD636100364D3 /* Tests */ = {
@@ -302,7 +302,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C22BE00A7892AD501F42BA6B /* Build configuration list for PBXProject "{{ cookiecutter.project_name }}" */;
+			buildConfigurationList = C22BE00A7892AD501F42BA6B /* Build configuration list for PBXProject "TemplateProject" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -314,7 +314,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				36D3216B8195DA436095B6F8 /* {{ cookiecutter.project_name }} */,
+				36D3216B8195DA436095B6F8 /* TemplateProject */,
 				A65658C6810AD636100364D3 /* Tests */,
 			);
 		};
@@ -423,8 +423,8 @@
 /* Begin PBXTargetDependency section */
 		7CC95CA2766A0389480CFC8A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = {{ cookiecutter.project_name }};
-			target = 36D3216B8195DA436095B6F8 /* {{ cookiecutter.project_name }} */;
+			name = TemplateProject;
+			target = 36D3216B8195DA436095B6F8 /* TemplateProject */;
 			targetProxy = 39F2D298135A5F41B2404D9E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -496,7 +496,7 @@
 		5057ED1C4DBE850BE944EA44 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/{{ cookiecutter.project_name }}.app/{{ cookiecutter.project_name }}";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TemplateProject.app/TemplateProject";
 				CLANG_ENABLE_MODULES = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -566,7 +566,7 @@
 		B34AB26AD4A42634AECBADE3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/{{ cookiecutter.project_name }}.app/{{ cookiecutter.project_name }}";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TemplateProject.app/TemplateProject";
 				CLANG_ENABLE_MODULES = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -612,7 +612,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		75DAABC207F528B4099AD994 /* Build configuration list for PBXNativeTarget "{{ cookiecutter.project_name }}" */ = {
+		75DAABC207F528B4099AD994 /* Build configuration list for PBXNativeTarget "TemplateProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1D1E7CFC379CA919D4F47338 /* Release */,
@@ -630,7 +630,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C22BE00A7892AD501F42BA6B /* Build configuration list for PBXProject "{{ cookiecutter.project_name }}" */ = {
+		C22BE00A7892AD501F42BA6B /* Build configuration list for PBXProject "TemplateProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				769A40C194F663DA943B3623 /* Debug */,

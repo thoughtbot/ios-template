@@ -1,0 +1,18 @@
+#!/bin/sh
+
+set -e
+
+from=TemplateProject
+to="{{ cookiecutter.project_name }}"
+
+rm -rf TempProject
+cp -r $from ./TempProject
+
+find TempProject \( -type d -name "Carthage" \) -prune -o -type f \
+  -exec ruby -p -i -e "gsub /$from/, \"$to\"" {} \;
+
+find TempProject \( -type d -name "Carthage" \) -prune -o -d -name "$from*" -print0 \
+  -exec rename "s/$from([^\/]*)$/$to\$1/" {} \;
+
+rm -rf "$to"
+mv TempProject "$to"

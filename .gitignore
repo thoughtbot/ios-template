@@ -1,2 +1,3 @@
-{{ cookiecutter.project_name }}/Cartfile.resolved
-TestProject/
+/*/Cartfile.resolved
+/TempProject/
+/TestProject/

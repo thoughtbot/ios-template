@@ -1,1 +1,1 @@
-github "thoughtbot/Argo" "master"
+github "thoughtbot/Argo" ~> 4.0
